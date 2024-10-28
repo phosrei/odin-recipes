@@ -1,2 +1,2 @@
 # odin-recipes
-A basic recipe website to assess proficiency of fundamental HTML knowledge
+A basic recipe website to assess proficiency of fundamental HTML and CSS knowledge
