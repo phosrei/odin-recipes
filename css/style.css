@@ -2,38 +2,71 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+html {
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
 }
 
-.heading {
-  background-color: #1d692d;
-  color: white;
-
-  text-align: center;
-
-  padding: 16px 0;
-}
+/* Home */
 
 h1 {
-  font-size: 64px;
-}
-
-.list {
-  margin: 24px;
-}
-
-li {
-  background-color: #30a148;
-
-  padding: 8px;
-  margin-bottom: 24px;
-}
-
-.recipes_list {
-  background-color:#1d692d;
-
-  width: 300px;
-
+  background-color: rgba(48, 161, 73, 0.2);
+  text-align: center;
   padding: 16px;
-  margin: 24px auto;
+  margin-bottom: 64px;
+}
+
+.recipes {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.recipes li {
+  display: inline-block;
+}
+
+a {
+  display: inline-block;
+  background-color: rgba(48, 161, 73, 0.2);
+  padding: 32px;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0 24px;
+}
+
+.thumbnail {
+  margin-bottom: 8px;
+
+}
+
+/* Recipe Page */
+
+h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.recipe-img {
+  display: block;
+  margin: 32px auto;
+}
+
+.description {
+  width: 700px;
+  margin: 32px auto;
+}
+
+.container {
+  width: 700px;
+  background-color: rgba(48, 161, 73, 0.2);
+  padding: 32px;
+  margin: 32px auto;
+}
+
+.container li {
+  list-style-type: none;
+  margin-bottom: 16px;
 }
